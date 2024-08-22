@@ -1,0 +1,46 @@
+:root {
+  font-family: poppins, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  display: flex;
+  height: 100%;
+  outline: none;
+  border:none;
+  width: 80%;
+  background-color: transparent;
+  padding: 0 8px;
+  font-size: 1em;
+  font-weight: 400;
+}
+input::placeholder {
+  font-size: 1em;
+  font-weight: 500;
+  color: lightgray;
+}
+
+button {
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+}
+
+hr {
+  height: 20px;
+  background-color: lightgray;
+}
